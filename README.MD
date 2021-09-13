@@ -11,7 +11,7 @@
 
 
 ## General Information
-- a basic minecraft plugin i made (starting from 6/15/21)
+- a basic minecraft plugin i made (started on 6/15/21)
 
 
 ## Technologies Used
