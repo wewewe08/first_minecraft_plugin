@@ -1,3 +1,4 @@
 acid-dmg: "1"
-creeper-spawnrates: "10"
+num-creepers: "10"
+creeper-spawnrates: "50"
 creeper-toggle: false
