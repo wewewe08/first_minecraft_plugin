@@ -1,0 +1,12 @@
+name: MCPlugin
+version: 1.0
+author: wewewe
+main: me.yvonne.MainPlugin
+commands:
+  hello:
+     description: says hello!
+     usage: /<command>
+  fling:
+    description: this is the command for flinging others/yourself
+  creeperroulette:
+    description: toggles visual rates
