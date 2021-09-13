@@ -34,11 +34,13 @@ public class eventHandlers implements Listener {
         Location loc = player.getLocation();
         World wor = player.getWorld();
 
-        String creeperSR = plugin.getConfig().getString("creeper-spawnrates");
-        int numCreepers = Integer.parseInt(creeperSR);
+        String numC = plugin.getConfig().getString("num-creepers");
+        int numCreepers = Integer.parseInt(numC);
 
         Random rnd = new Random(); 
-        int creeperSpawnRate = rnd.nextInt(5); //500
+        String creeperSpawn = plugin.getConfig().getString("creeper-spawnrates");
+        int creeperSR = Integer.parseInt(creeperSpawn);
+        int creeperSpawnRate = rnd.nextInt(creeperSR); //500
         
         if (plugin.getConfig().getBoolean("creeper-toggle")){ //if the CR is toggled	
             if(creeperSpawnRate < 5){
